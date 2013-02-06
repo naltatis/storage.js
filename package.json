@@ -1,0 +1,26 @@
+{
+  "name": "storage.js",
+  "version": "0.0.1",
+  "description": "very light fault tolerant localStorage/sessionStorage wrapper",
+  "main": "storage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/naltatis/storage.git"
+  },
+  "keywords": [
+    "jquery",
+    "ajax",
+    "templating"
+  ],
+  "author": "naltatis",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.0rc7",
+    "grunt-contrib-uglify": "~0.1.1rc6",
+    "grunt-contrib-coffee": "~0.4.0rc7",
+    "grunt-contrib-watch": "~0.2.0rc7"
+  }
+}

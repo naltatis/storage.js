@@ -1,0 +1,1 @@
+define("storage",[],function(){var e;return e=function(e){var n;if(n=window[""+e+"Storage"],null==n)n={};else try{n.setItem("foo","bar"),n.removeItem("foo")}catch(t){n={}}return{set:function(e,t){return n[e]=t},get:function(e){return n[e]}}},{session:e("session"),local:e("local")}});
